@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+US+Modern:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Modern:wght@100..400&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+#container {
+    background-color: black;
+    color: white;
+}
+#menus {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#nav-logo {
+    flex: 2;
+    padding: 16px;
+    padding-left: 40px;
+    font-family: "Playwrite US Modern", cursive;
+}
+#nav-menu {
+    flex: 3;
+    text-align: right;
+}
+#nav-menu #menus a {
+    color: white;
+    text-decoration: none;
+}
+#nav-menu #menus a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+#about {
+    display: flex;
+    padding-top: 40px;
+}
+#about-desc {
+    flex: 1;
+    padding: 40px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#about-desc h2 {
+    font-size: 64px;
+}
+#about-image {
+    flex: 1;
+}
+#about-image img {
+    width: 100%;
+}
+#experiences {
+    padding: 40px;
+}
+#experiences-title {
+    text-align: center;
+}
+#experiences-items {
+    display: flex;
+}
+#experiences-items .item {
+    flex: 1;
+    text-align: center;
+}
